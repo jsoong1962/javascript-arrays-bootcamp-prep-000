@@ -51,6 +51,10 @@ function destructivelyRemoveElementFromBeginningOfArray(array) {
   return array;
 }
 
-function 
+function removeElementFromBeginningOfArray(array) {
+  var arr = [...array];
+  arr.shift();
+  return arr;
+}
 
 
