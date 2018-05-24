@@ -68,6 +68,7 @@ function removeElementFromEndOfArray(array) {
 }
 
 function removeElementFromEndOfArray(array) {
-  var arr ={ array.pop()};
+  var arr = [...array];
+  arr.pop()
   return array;
 }
