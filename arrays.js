@@ -34,7 +34,7 @@ function destructivelyAddElementToEndOfArray(array, element) {
 
 function accessElementInArray(array, index) {
   return array[index];
-}
+ }
 
 function entFromBeginningOfArray(array) {
   array.slice(1);
@@ -51,10 +51,6 @@ function destructivelyRemoveElementFromBeginningOfArray(array) {
   return array;
 }
 
-function removeElementFromBeginningOfArray(array) {
-  var arr = array.slice(0, array.length);
-  arr.shift();
-  return arr;
-}
 
-function 
+
+
